@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-07-26T11:19:10+02:00
+
+====== 02 LatexEditoren ======
+Created Dienstag 26 Juli 2016
+
+
+* Für Windowsnutzer ist eindeutig Texstudio zu empfehlen (__auch wenn im Redmine was anderes steht__)
+

@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-12-02T01:35:45+01:00
+
+====== 03 01 SkizzenZeichnungen ======
+Created Freitag 02 Dezember 2016
+
+
+===== Erstellen von Skizzen ... =====
+Auch bei Skizzen sollte das Dateiformat svg oder pdf angestrebt werden. Schön ist natürlich, wenn man Latex-Schriftarten hinbekommt.
+
+
+

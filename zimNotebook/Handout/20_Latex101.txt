@@ -1,0 +1,59 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-11-20T01:39:23+01:00
+
+====== 20 Latex101 ======
+Created Sonntag 20 November 2016
+
+
+===== besserer Workflow mit newcommand =====
+Zahlenwerte im Text sind als Formeln zu schreiben, Quelltextteil, z. B. Variablennamen sind mit ''\verb|...|'' hervorzuheben.
+
+**Tipp:** In der Ausarbeitung werden zahlreiche Formelzeichen sehr oft verwendet. Hier lohnt es sich oft, ein Latex-Kommando zu definieren, dass das Formelzeichen beschreibt. Dies hat den Vorteil, dass an allen Stellen die gleiche Schreibweise eingehalten wird und wenn man Änderungen vornimmt, diese sofort an allen Stellen wirksam sind. 
+Zudem werden Tippfehler vermieden, da Kommandos, die nicht definiert sind als Fehler gemeldet werden, hingegen fehlerhafte Formeln nicht erkannt werden können. Dies ist insbesondere dann wichtig, wenn Indizes verwendet werden. Bei langen Indizes ist es außerdem übersichtlicher. In Latex kann das dann wie folgt aussehen:
+
+{{{code: lang="latex" linenumbers="True"
+%% Formelzeichen %%%%%%%%%%%
+\newcommand{\Udc}{UDC} %Definiert Formelzeichen für Zwischenkreisspannung
+...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+...
+\begin{document}
+...
+Die Zwischenkreisspannung $\Udc$ ...
+}}}
+
+
+Man kann auch commands mit Argumenten erstellen. Im unteren Beispiel bedeutet ''[2]'' dass 2 Argumente benötigt werden.
+Die Argumente selbst werden dann mit ''#1'', ''#2'',... benutzt.
+{{{code: lang="latex" linenumbers="True"
+\newcommand{\highlight}[2]{\colorbox{#1}{$\displaystyle #2$}}
+
+
+...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+...
+\begin{document}
+...
+\begin{align}
+a = \highlight{green}{b} + c
+\end{align}
+\end{document}
+}}}
+
+{{./equation.png?type=equation}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== foobar =====

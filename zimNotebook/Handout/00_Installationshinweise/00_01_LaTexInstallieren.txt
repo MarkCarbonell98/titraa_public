@@ -1,0 +1,57 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-02-15T08:12:57+01:00
+
+====== 00 01 LaTexInstallieren ======
+Created Mittwoch 15 Februar 2017
+
+===== Windows - Nutzer  - MikTex über NetInstaller =====
+
+=== MikTex-Installation  Teil 1 - Download MiKTex ===
+{{./pasted_image001.png?width=600}}
+
+* Normalerweise müssen für eine vollständige Installation von Miktex alle Pakete heruntergeladen werden (dauert sehr lange).
+	Wie das geht ist hier augeführt. __Im Workshop habe ich das bereits für euch gemacht. Daheim solltet ihr es selbst machen.__
+	{{./pasted_image002.png?width=500}}
+	{{./pasted_image003.png?width=500}}
+	{{./pasted_image004.png?width=500}}
+	{{./pasted_image005.png?width=500}}
+Wait forever ......
+
+
+==== MikTex-Installation Teil 2- MikTex installieren ====
+
+* Nachdem der Download durchgelaufen ist:
+	* Wähle "Install MikTex"
+	{{./pasted_image006.png}}
+	* Complete MikTex
+	{{./pasted_image007.png}}
+	
+	* Den Ordner auswählen, in dem die Pakete liegen. Der Ordner kann im Netzlaufwerk gefunden werden.
+	{{./pasted_image008.png}}
+	
+	
+Es empfiehlt sich, sich den Installationspfad zu merken. Beispielsweise
+{{{code: lang="c-sharp" linenumbers="True"
+C:\Program Files (x86)\MiKTeX 2.9
+}}}
+
+
+
+===== Linux - Nutzer =====
+
+{{{code: lang="sh" linenumbers="True"
+sudo apt-get install -y texlive-full
+sudo apt-get install -y inkscape
+sudo apt-get install -y kile
+sudo apt-get install -y okular4
+}}}
+
+
+
+===== Für Mac - Nutzer =====
+
+Latex distribution:
+http://www.tug.org/mactex/
+
+BITTE UMBEDINGT EINE FULL INSTALLATION MACHEN. (nicht basic)

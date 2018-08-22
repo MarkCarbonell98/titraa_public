@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-07-21T10:20:47+02:00
+
+====== 03 ErstellenVonAbbildungen ======
+Created Donnerstag 21 Juli 2016
+
+
+Eine Sammlung einiger Möglichkeiten, Abbildungen zu erstellen.
+
+__Zuerst lesen, wie man Skizzen und Zeichnungen erstellt__
+
+
+{{{code: lang="latex" linenumbers="True"
+\begin{figure}
+	\centering
+	\includegraphics{path}
+	\caption{Matlab - Plot2Latex - pdftex Datei einbinden.} %Satzpunkt nicht vergessen!
+\end{figure}
+}}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== fooo =====
