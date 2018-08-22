@@ -1,0 +1,87 @@
+# KILE
+Created Montag 08 August 2016
+
+Empfohlene Einstellungen
+------------------------
+
+
+1. Settings → Configure Kile → Unter Tools → Preview
+	a. unter "Show preview in bottom bar"  alle Häkchen setzen
+
+![](./KILE/pasted_image.png)
+	
+
+1. General-> "Automaticall insert the Latex equivalent of special characters when typing"
+2. General-> Type -> German Quotes
+3. structure view -> show undefined references
+4. tools->build->pdflatex->modern (for forward and inverse search)
+5. editor -> appearence -> general-> animate bracket matching
+6. editor -> appearence ->borders-> show line numbers, show icon border
+7. editor-> editing-> spellcheck->default language -> german
+8. editor -> editing-> spellcheck-> automatic spell checking enabled by default
+9. Kile->complete->show Appreviations
+
+
+
+### weitere Einstellungen in Okular
+
+1. Einstellungen ⇒ Okular einrichten ⇒ Editor ⇒ Editor ⇒ Kile auswählen. Dann klappt auch Shift Klick
+
+Für die inverse Suche muss das **Auswählen Werkzeug** ausgewählt werden (in Okular)
+![](./KILE/pasted_image004.png)
+
+
+Kile Projekte
+-------------
+
+
+* In Kile kann man Projekte erstellen
+* man sollte alle ``.tex`` Dateien, die man in einem Projekt verwenden möchte, auch zum Projekt hinzufügen über **Projects → add Files to Project → ...**
+	* wenn man es nicht macht und dann eine Datei kompliert, wird Kile sagen, dass es sich nicht um das *root-document* handelt
+	* in dem Fall einfach die Datei zum Projekt hinzufügen, dann klappts
+
+
+### kein autocomplte bei \cite
+auch in diesem Fall hat man vergessen, die ``.bib`` Datei zum Projekt hinzuzufügen.
+
+Bookmarks
+---------
+
+
+1. Show Icon Border - Option aktivieren
+
+ ![](./KILE/pasted_image006.png)
+
+
+2. Eine Zeile auswählen und als Lesezeichen markieren
+
+![](./KILE/pasted_image007.png)
+
+
+3. In der entsprechenden Zeile ist jetzt eine Lesezeichemarkierung (sofern die *Icon Border* aktiviert ist)
+
+![](./KILE/pasted_image008.png)
+
+
+Quickbuild und Preview
+----------------------
+
+wie auch Texstudio kann Kile eine eingebettete Vorschau der Gleichungen zeigen. Diese wird allerdings nicht automatisch aktualisiert.
+
+
+1. eine Gleichung erstellen
+2. Gleichung markieren
+
+![](./KILE/pasted_image001.png)
+
+3. Build → Quick Prview → Selection, Environment oder Mathgroup (egal)
+	a. alternativ auch in der *Toolbar *auf das richtige Element klicken
+
+![](./KILE/pasted_image005.png) 
+
+5. In der unteren Leiste ist die Gleichung als Vorschau angezeigt. Leider wird sie nicht automatisch aktualisiert (bei Texstudio schon)
+
+![](./KILE/pasted_image002.png)
+
+
+
